@@ -1,0 +1,217 @@
+.application-tile {
+    padding: 24px;
+    margin: 20px 0;
+    border-radius: 16px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Take 90% of the parent container */
+    /* max-width: 800px;  */
+    margin: 0 auto; /* Center the tile horizontally */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.application-tile:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.application-tile-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container for the two divs */
+.columns-container {
+    display: flex;
+    justify-content: space-between; /* Space the divs evenly within the container */
+    flex-wrap: nowrap; /* Keep divs side by side */
+    gap: 16px;
+    width: calc(100% - 400px);
+    margin: 0 200px;
+
+}
+
+/* Left and Right Div Styling */
+.left-div {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+}
+
+.right-div {
+    flex: 2; /* Take approximately 40% of the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Left Div Content */
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.applicant-avatar {
+    width: 120px !important;
+    height: 120px !important;
+    border: 4px solid #e0e0e0;
+    border-radius: 50%;
+    transition: border-color 0.3s ease;
+}
+
+.applicant-avatar:hover {
+    border-color: #ab47bc;
+}
+
+.applicant-name {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #2d2d2d;
+    margin-bottom: 12px;
+}
+
+.rating-stars {
+    margin-bottom: 12px;
+}
+
+.status-button {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.status-button .MuiPaper-root,
+.status-button .MuiButton-root {
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.applied-date {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 16px;
+}
+
+.bio-section,
+.education-section,
+.skills-section {
+    margin-top: 16px;
+    width: 100%; /* Take the full width of the parent div */
+    text-align: left; /* Left-align the text to match the mockup */
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    margin-bottom: 8px;
+}
+
+.section-content {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align skills to the left to match the mockup */
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.skill-chip {
+    background-color: #f0f0f0 !important;
+    color: #333 !important;
+    font-size: 0.85rem !important;
+    padding: 4px 10px !important;
+    border-radius: 16px !important;
+    transition: background-color 0.3s ease;
+}
+
+.skill-chip:hover {
+    background-color: #e0e0e0 !important;
+}
+
+/* Right Div Content */
+.profile-video {
+    width: 100%; /* Take the full width of the parent div */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+
+.download-section {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+    width: 100%; /* Take the full width of the parent div */
+}
+
+.download-section:hover {
+    transform: translateY(-2px);
+}
+
+.download-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.download-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.gradient-button {
+    background: linear-gradient(45deg, #ab47bc, #7b1fa2) !important;
+    color: white !important;
+    font-size: 0.85rem !important;
+    padding: 6px 12px !important;
+    border-radius: 20px !important;
+    text-transform: none !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    transition: background 0.3s ease, transform 0.2s ease !important;
+    width: 100%;
+    max-width: 200px; /* Keep the button width constrained as in the mockup */
+}
+
+.gradient-button:hover {
+    background: linear-gradient(45deg, #9c27b0, #6a1b9a) !important;
+    transform: scale(1.05);
+}
+
+/* Social Icons at the Footer */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 12px;
+}
+
+.social-icons .MuiIconButton-root {
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.social-icons .MuiIconButton-root:hover {
+    color: #ab47bc;
+}

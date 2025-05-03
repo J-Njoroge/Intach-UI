@@ -1,0 +1,112 @@
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80.5vh;
+    background-color: #fafafa; /* Soft pastel blue to blend with the image */
+    padding: 20px;
+    margin: 0;
+    width: 96.5%;
+  }
+  
+  .welcome-content {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  
+  .welcome-image {
+    width: 1000px; /* Increased width */
+    height: 530px; /* Increased height */
+    object-fit: cover; /* Ensures the image fills the dimensions while maintaining aspect ratio */
+  }
+  
+  .text-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .main-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(99, 57, 97, 0.25);
+  }
+  
+  .sub-heading {
+    font-size: 2rem; /* Explicitly set font size for subheading */
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .get-started-button {
+    background: linear-gradient(90deg, #8e44ad, #6fcfd6);
+    text-decoration: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 30px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .get-started-button:hover {
+    background: linear-gradient(90deg, #732d91, #b998c9);
+  }
+  
+  @media (max-width: 960px) {
+    .welcome-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .image-section {
+      padding: 20px;
+    }
+  
+    .text-section {
+      padding: 30px;
+    }
+  
+    .main-heading {
+      font-size: 2.5rem;
+    }
+  
+    .sub-heading {
+      font-size: 1.5rem; /* Adjusted for smaller screens */
+    }
+  
+    .welcome-image {
+      width: 480px; /* Adjusted for smaller screens */
+      height: 384px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .main-heading {
+      font-size: 2rem;
+    }
+  
+    .sub-heading {
+      font-size: 1.2rem; /* Further adjusted for mobile */
+    }
+  
+    .get-started-button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  
+    .welcome-image {
+      width: 360px; /* Further adjusted for mobile */
+      height: 288px;
+    }
+  }

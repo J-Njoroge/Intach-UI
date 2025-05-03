@@ -1,0 +1,61 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: url('./images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    margin: 0;
+    width: 96.5%;
+  }
+  
+  .signup-form {
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .subheading {
+    margin-top: 10px;
+    color: #555;
+    text-align: center;
+  }
+  
+  .input-box {
+    width: 400px !important;
+  }
+  
+  .submit-button {
+    width: 400px;
+    background: linear-gradient(90deg, #8e44ad, #6fcfd6); /* Purple to lilac gradient */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background: linear-gradient(90deg, #732d91, #b998c9); /* Darker gradient on hover */
+  }
+  
+  .login-link {
+    text-align: center;
+    color: #666;
+  }
+  
+  .login-link a {
+    color: #8e44ad; /* Matching the purple theme */
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+  h2 {
+    text-align: center;
+  }

@@ -1,0 +1,114 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; /* Ensure all cards in a row stretch to the same height */
+  }
+  
+  .application-card {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+    height: 100%; /* Ensure the card takes the full height of the row */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .application-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .applicant-avatar {
+    width: 120px !important;
+    height: 120px !important;
+    margin-bottom: 10px;
+    border: 3px solid #e0e0e0;
+  }
+  
+  .applicant-name {
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .skills-wrapper {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+    max-height: 100px; /* Limit the height of the skills section */
+    overflow-y: auto; /* Add scroll if skills overflow */
+  }
+  
+  .skill-chip {
+    background-color: #e0e0e0 !important;
+    color: #333 !important;
+    font-size: 12px !important;
+    padding: 4px 8px !important;
+    border-radius: 16px !important;
+  }
+  
+  .buttons-wrapper {
+    margin-top: auto; /* Push buttons to the bottom of the card */
+  }
+  
+  .cute-button {
+    font-size: 12px !important;
+    padding: 6px 12px !important;
+    border-radius: 20px !important;
+    text-transform: none !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+    transition: background-color 0.3s ease !important;
+  }
+  
+  .end-job-button {
+    background-color: #f06292 !important; /* Soft pink */
+    color: white !important;
+  }
+  
+  .end-job-button:hover {
+    background-color: #ec407a !important;
+  }
+  
+  .download-resume-button {
+    background-color: #64b5f6 !important; /* Soft blue */
+    color: white !important;
+  }
+  
+  .download-resume-button:hover {
+    background-color: #42a5f5 !important;
+  }
+  
+  .rate-applicant-button {
+    background-color: #81c784 !important; /* Soft green */
+    color: white !important;
+  }
+  
+  .rate-applicant-button:hover {
+    background-color: #66bb6a !important;
+  }
+  
+  .popupDialog {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

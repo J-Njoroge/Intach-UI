@@ -1,0 +1,168 @@
+.profile-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  background-color: #f3f4f6;
+}
+
+.profile-card {
+  width: 100%;
+  max-width: 672px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+.profile-title {
+  color: #6B46C1;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.navigation-steps {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+}
+
+.step-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.step.active .step-circle {
+  background-color: #6B46C1;
+  color: white;
+}
+
+.step.active .step-label {
+  color: #6B46C1;
+  font-weight: 600;
+}
+
+.step .step-circle {
+  background-color: #d1d5db;
+  color: #4b5563;
+}
+
+.step .step-label {
+  margin-left: 8px;
+  color: #4b5563;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.step-line {
+  flex: 1;
+  height: 2px;
+  background-color: #d1d5db;
+  margin: 0 8px;
+  min-width: 30px; /* Increased min-width for better spacing with fewer items */
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.section-title {
+  color: #6B46C1;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.input-field {
+  margin-bottom: 16px !important;
+}
+
+.input-border {
+  border: 1px solid #d1d5db !important;
+  border-radius: 8px !important;
+}
+
+.upload-row {
+  display: flex;
+  gap: 16px;
+}
+
+.upload-field {
+  flex: 1;
+  margin-bottom: 16px !important;
+}
+
+.upload-field-narrow {
+  margin-bottom: 16px !important;
+  width: 80%;
+}
+
+.chip-input {
+  margin-bottom: 16px !important;
+}
+
+.multifield-container {
+  margin-bottom: 16px;
+}
+
+.education-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.institution-field {
+  flex: 1;
+}
+
+.course-field {
+  flex: 1;
+}
+
+.year-field {
+  width: 25%;
+}
+
+.add-button-container {
+  text-align: center;
+}
+
+.add-institution-button {
+  background-color: #6B46C1 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 8px 16px !important;
+}
+
+.add-institution-button:hover {
+  background-color: #553C9A !important;
+}
+
+.save-button-container {
+  text-align: center;
+}
+
+.save-button {
+  background-color: #6B46C1 !important;
+  color: white !important;
+  text-transform: none !important;
+  padding: 12px 0 !important;
+  width: 33% !important;
+  border-radius: 9999px !important;
+}
+
+.save-button:hover {
+  background-color: #553C9A !important;
+}

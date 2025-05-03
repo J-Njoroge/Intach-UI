@@ -1,0 +1,159 @@
+/* Page Title */
+.page-title {
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+  color: #333 !important;
+  margin-bottom: 20px !important;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 500px !important;
+  margin-bottom: 20px !important;
+}
+
+.search-bar .MuiOutlinedInput-root {
+  border-radius: 8px !important;
+  background-color: #f5f5f5 !important;
+}
+
+.search-bar .MuiInputLabel-outlined {
+  color: #666 !important;
+}
+
+/* Job Tile */
+.job-tile {
+  width: 800px !important;
+  padding: 20px !important;
+  margin: 20px 0 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+  background-color: #fff !important;
+  position: relative !important;
+}
+
+/* Logo Placeholder */
+.logo-placeholder {
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 12px !important;
+  margin-right: 10px !important;
+}
+
+/* Company Name */
+.company-name {
+  font-size: 1rem !important;
+  color: #333 !important;
+  font-weight: 500 !important;
+}
+
+/* Application Deadline */
+.deadline {
+  font-size: 0.8rem !important;
+  color: #555 !important;
+  margin-right: 10px !important;
+}
+
+/* Job Title */
+.job-title {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  margin-top: 5px !important;
+}
+
+/* Job Details Row (Role, Salary, Duration) */
+.job-details-row {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  margin: 10px 0 !important;
+  gap: 20px !important;
+}
+
+.job-detail {
+  font-size: 0.9rem !important;
+  color: #555 !important;
+}
+
+/* Job Description */
+.job-description {
+  font-size: 0.85rem !important;
+  color: #666 !important;
+  margin: 10px 0 !important;
+  min-height: 40px !important; /* Placeholder space for 1-2 lines */
+}
+
+/* Skill Chips */
+.skill-chip {
+  margin-right: 8px !important;
+  margin-bottom: 8px !important;
+  background-color: #e0e0e0 !important;
+  color: #333 !important;
+  border-radius: 16px !important;
+  font-size: 0.8rem !important;
+  padding: 5px 10px !important;
+}
+
+/* Applicants, Positions, Location, Rating Row */
+.applicants-location-row {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  margin: 10px 0 !important;
+  gap: 20px !important;
+}
+
+.rating-text {
+  font-size: 0.8rem !important;
+  color: #555 !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 5px !important;
+}
+
+.applicants-info, .location-info {
+  font-size: 0.8rem !important;
+  color: #555 !important;
+}
+
+/* View Details and Save Buttons (Top Right) */
+.button-group {
+  display: flex !important;
+  gap: 10px !important;
+}
+
+.view-details-button, .save-button {
+  padding: 6px 16px !important;
+  border-radius: 20px !important;
+  text-transform: none !important;
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  background-color: #000 !important;
+  color: white !important;
+}
+
+.view-details-button:hover, .save-button:hover {
+  background-color: #333 !important;
+}
+
+/* Apply Button (Bottom Right) */
+.apply-button {
+  background-color: #4a90e2 !important;
+  color: white !important;
+  padding: 6px 16px !important;
+  border-radius: 20px !important;
+  text-transform: none !important;
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  margin-left: auto !important;
+}
+
+.apply-button:hover {
+  background-color: #357abd !important;
+}

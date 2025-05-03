@@ -1,0 +1,183 @@
+/* Page Title */
+.page-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    width: 500px !important;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar .MuiOutlinedInput-root {
+    border-radius: 8px;
+    background-color: #f5f5f5;
+  }
+  
+  .search-bar .MuiInputLabel-outlined {
+    color: #666;
+  }
+  
+  /* Job Tile */
+  .job-tile {
+    width: 800px !important;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: relative;
+  }
+  
+  /* Logo Placeholder */
+  .logo-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  
+  /* Company Name */
+  .company-name {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* Date of Posting */
+  .date-posting {
+    font-size: 0.8rem;
+    color: #555;
+    margin-right: 10px;
+  }
+  
+  /* Job Title */
+  .job-tile .MuiTypography-h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  /* Job Details Row (Role, Salary, Duration) */
+  .job-details-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+    gap: 20px;
+  }
+  
+  .job-detail {
+    font-size: 0.9rem !important;
+    color: #555;
+  }
+  
+  /* Job Description */
+  .job-description {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 10px 0;
+    min-height: 40px; /* Placeholder space for 1-2 lines */
+  }
+  
+  /* Skill Chips */
+  .skill-chip {
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+    background-color: #e0e0e0 !important;
+    color: #333 !important;
+    border-radius: 16px !important;
+    font-size: 0.8rem !important;
+    padding: 5px 10px !important;
+  }
+  
+  /* Applicants, Positions, Location, Rating Row */
+  .applicants-location-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+    gap: 20px;
+  }
+  
+  .rating-text {
+    font-size: 0.8rem;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .applicants-info, .location-info {
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  /* Edit and Delete Buttons (Top Right) */
+  .edit-button, .delete-button {
+    margin-left: 10px !important;
+    padding: 6px 16px !important;
+    border-radius: 20px !important;
+    text-transform: none !important;
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    background-color: #000 !important;
+    color: white !important;
+  }
+  
+  .edit-button:hover, .delete-button:hover {
+    background-color: #333 !important;
+  }
+  
+  /* View Applicants Button (Bottom Right) */
+  .view-applications-button {
+    background-color: #4a90e2 !important;
+    color: white !important;
+    padding: 6px 16px !important;
+    border-radius: 20px !important;
+    text-transform: none !important;
+    font-size: 0.8rem !important;
+    font-weight: 500 !important;
+    margin-left: auto !important;
+  }
+  
+  .view-applications-button:hover {
+    background-color: #357abd !important;
+  }
+  
+  /* Modal Styling */
+  .modal-paper {
+    padding: 20px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 30%;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Filter Modal */
+  .filter-modal {
+    padding: 50px;
+    outline: none;
+    min-width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sort-option {
+    border: 1px solid #d1d1d1 !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+  }
